@@ -13,6 +13,7 @@ export default {
   usage: "view <backup_name> | view list",
   category: "settings",
   type: "both",
+  ownerOnly: true,
   permissions: ["SendMessages"],
   cooldown: 2,
 

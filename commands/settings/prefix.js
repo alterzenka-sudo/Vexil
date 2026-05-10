@@ -14,6 +14,7 @@ export default {
     usage: 'prefix <new_prefix>',
     category: 'settings',
     type: 'both',
+    ownerOnly: true,
     permissions: ['SendMessages'],
     cooldown: 5,
 

@@ -6,38 +6,51 @@
 - **Selfbots violate Discord's Terms of Service**
 - **Your account may be terminated if detected**
 - **Use at your own risk**
+- **⚠️ AVOID BlueCord and Suspicious Clients - They may be known malware and a security risk!**
+- **Avoid downloading suspicious token grabber apps - Use browser methods instead**
 
 ---
 
-## 📱 **Method 1: Mobile (BlueCord App)**
+## 📱 **Method 1: Mobile (Kiwi Browser - Developer Tools)**
 
-### **What is BlueCord?**
+### **What is Kiwi Browser?**
 
-BlueCord is a modified Discord client that allows easier token extraction on mobile devices.
+Kiwi Browser is a Chromium-based browser that supports built-in Developer Tools on Android, allowing safe token extraction through the browser console.
 
 ### **Steps:**
 
-1. **Download BlueCord**
+1. **Install & Log In**
 
-   - Search for "BlueCord Discord" on your mobile browser
-   - Download and install the APK (Android) or IPA (iOS)
-   - ⚠️ **Only download from trusted sources**
+   - Download Kiwi Browser from the Google Play Store
+   - Go to https://discord.com/app and log in to your account
 
-2. **Login to BlueCord**
+2. **Enable Desktop Site**
 
-   - Open BlueCord app
-   - Login with your Discord account credentials
-   - Complete any 2FA if enabled
+   - Tap the three dots (menu) in the top-right corner
+   - Check the box for **"Desktop site"**
+   - This is necessary for the web app to load correctly
 
-3. **Extract Token**
+3. **Open Developer Tools**
 
-   - Go to **Settings** in BlueCord
-   - Look for **"Bluecord Mods"** and click it
-   - Then go to **"Account Switcher"**
-   - Find **"Copy Current Token"**
-   - Copy the token to your clipboard
+   - Tap the three dots (menu) again
+   - Scroll down and select **"Developer tools"**
 
-4. **Use Token**
+4. **Find the Token via Application Tab**
+
+   - In the Developer Tools window, find the top bar and select **"Application"**
+   - On the left sidebar, expand **"Local Storage"** and select `https://discord.com`
+   - In the "Filter" box on the right, type `token`
+   - Your token will appear next to the key labeled `token` (a long string of characters wrapped in quotes)
+
+5. **Alternative (Network Tab)**
+
+   - If it doesn't show in Local Storage, go to the **"Network"** tab
+   - Refresh the page or switch to a different channel to trigger activity
+   - Look for a request named `library` or `messages?limit=50`
+   - Tap it, go to **"Headers"**, and scroll down to **"Request Headers"**
+   - Your token is the value next to the `authorization` header
+
+6. **Use Token**
    - Paste the token into your `config.yaml` file
    - Replace `"YOUR_DISCORD_TOKEN_HERE"` with your actual token
 

@@ -14,6 +14,7 @@ export default {
   usage: "backup [backup_name]",
   category: "settings",
   type: "both",
+  ownerOnly: true,
   permissions: ["SendMessages"],
   cooldown: 30,
 

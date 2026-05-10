@@ -108,7 +108,7 @@ nuke:
 # ====================================================================
 api:
   # Don't change this unless you know what you are doing
-  version: "v10"
+  version: "v9"
 
 # ====================================================================
 # CRYPTOCURRENCY ADDRESSES (OPTIONAL)

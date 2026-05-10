@@ -78,7 +78,7 @@ export default {
                 `> • Events: ${eventCount}\n` +
                 `> • Lines of Code: ${linesOfCode}\n\n` +
                 `> **👨‍💻 Developer:**\n` +
-                `> • Created by: [faiz4sure](https://instagram.com/1dotfaizkhan)\n` +
+                `> • Created by: [faiz4sure](https://github.com/faiz4sure)\n` +
                 `> • Source: [GitHub](https://github.com/faiz4sure/Vexil)\n\n` +
                 `> **🔧 Current Status:**\n` +
                 `> • Prefix: \`${client.prefix}\`\n` +

@@ -310,6 +310,7 @@ async function initializeSelfbot() {
     // Step 4: Attach configuration and initialize client properties
     client.config = config; // Attach config for global access
     client.prefix = config.selfbot.prefix; // Set command prefix
+    client.noprefix = false;
     client.commands = new Map(); // Initialize command collection
     client.cooldowns = new Map(); // Initialize cooldown tracking
 

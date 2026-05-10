@@ -8,6 +8,7 @@ export default {
   usage: "taskstop [taskName]",
   category: "settings",
   type: "both",
+  ownerOnly: true,
   permissions: ["SendMessages"],
   cooldown: 5,
 
