@@ -15,11 +15,11 @@ selfbot:
   # Your Discord account token (REQUIRED)
   # See docs/GET_TOKEN.md for instructions on how to get this
   # NEVER share your token with anyone!
-  token: "YOUR_TOKEN_HERE"
+  token: "MTUwNzAyNzUyMjc1MDEyMDIyNw.GfuiTs.D-UVLGh5TgSaL9jKj9dedExTbYsXq9XFdBbS2M"
 
   # Command prefix - what you type before commands
   # Example: if prefix is "+", you use "+help"
-  prefix: "+"
+  prefix: "?"
 
   # Your Discord status (online, idle, dnd, invisible)
   # dnd = Do Not Disturb (recommended for selfbots)
@@ -42,7 +42,7 @@ relationship_logs:
   # Special users to monitor closely (user IDs)
   # Add Discord user IDs of people you want to track
   special_users:
-    - "123456789012345678" # Replace with actual user IDs
+    - "962610537206784040" # Replace with actual user IDs
 
 # ====================================================================
 # DEBUG AND DEVELOPMENT
@@ -59,7 +59,7 @@ ai:
   # Groq API key for AI features (optional)
   # Its totally free 100%
   # Get your free API key from: https://console.groq.com/
-  groq_api_key: ""
+  groq_api_key: "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"
 
 # ====================================================================
 # VOICE CHANNEL SETTINGS
@@ -138,7 +138,7 @@ bad_phrases:
   # Enable bad phrase/insult commands for troll features
   # WARNING: Contains extremely offensive language - use responsibly
   # These phrases are used by commands like +badreply for trolling
-  enabled: true
+  enabled: false
 
   # List of offensive phrases for troll commands
   # Each phrase should be enclosed in double quotes
