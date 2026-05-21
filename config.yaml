@@ -59,7 +59,7 @@ ai:
   # Groq API key for AI features (optional)
   # Its totally free 100%
   # Get your free API key from: https://console.groq.com/
-  groq_api_key: "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"
+  groq_api_key: "${secrets.GROGKEY}"
 
 # ====================================================================
 # VOICE CHANNEL SETTINGS
