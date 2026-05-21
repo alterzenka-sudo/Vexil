@@ -120,14 +120,7 @@ function validateToken(token) {
 
   // Check basic Discord token format (should be base64-like)
   // Discord tokens are typically 59+ characters long
-  if (token.length < 50) {
-    return {
-      isValid: false,
-      error:
-        "Token appears to be too short. Discord tokens are typically 59+ characters.",
-    };
-  }
-
+  
   // Check for common placeholder values
   const placeholders = [
     "YOUR_TOKEN_HERE",
